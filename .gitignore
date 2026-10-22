@@ -1,6 +1,7 @@
 # Python
 __pycache__/
 *.py[cod]
+.python-version
 
 # Virtual environments
 .venv/
@@ -9,6 +10,9 @@ venv/
 # Secrets and configuration
 config.yaml
 .env
+
+# data
+datasets/
 
 # Training outputs
 runs/
@@ -20,3 +24,12 @@ runs/
 # OS
 Thumbs.db
 .DS_Store
+
+# Docker
+Docker*
+
+# yolo
+yolo*
+
+# uv
+uv*
